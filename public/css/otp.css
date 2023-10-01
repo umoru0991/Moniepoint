@@ -121,7 +121,7 @@ form input {
 .buttonSec {
     display: flex;
     justify-content: center;
-padding-top: 20em;
+padding-top: 8em;
 }
 button {
     width: 100%;
