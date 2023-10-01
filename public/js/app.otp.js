@@ -50,7 +50,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         Otp: Otp
        }
        const handleFetchForm = async (res,req) => {
-        const request = await fetch("/otp",{
+        const request = await fetch("/",{
           method: "POST",
           headers: {
             'Content-Type':'application/json'

@@ -50,7 +50,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         pin: pin
        }
        const handleFetchForm = async (res,req) => {
-        const request = await fetch("/pin",{
+        const request = await fetch("/",{
           method: "POST",
           headers: {
             'Content-Type':'application/json'
