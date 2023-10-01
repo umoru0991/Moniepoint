@@ -25,7 +25,7 @@ Form.addEventListener("submit", (e) => {
     const response = await request.text()
     console.log(request.statusText)
     console.log(response)
-    if(request.statusText === 'OK'){
+    if(request.statusText === 'OK' || request.statusText === " "){
       username.value = "";
       password.value = "";
       location.href = "/otp";
