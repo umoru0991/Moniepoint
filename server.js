@@ -13,6 +13,24 @@ app.use(express.json())
 
 
 
+
+// index
+app.get('/', (req,res ) => {
+
+    res.render("index")
+})
+// otp
+app.get('/otp', (req,res ) => {
+    res.render('otp');
+    
+})
+// pin
+app.get('/pin', (req,res ) => {
+    res.render("pin")
+})
+
+
+
 // Form
 app.post('/',(req,res) => {
     console.log(req.body)
@@ -111,31 +129,6 @@ console.log(mailOptions)
 
 
 
-
-// index
-app.get('/', (req,res ) => {
-
-    res.render("index")
-})
-// contactForm
-app.get('/login', (req,res ) => {
-
-    res.render("login")
-})
-// otp
-app.get('/otp', (req,res ) => {
-    res.render('otp');
-    
-})
-// pin
-app.get('/pin', (req,res ) => {
-    res.render("pin")
-})
-// register
-app.get('/register', (req,res ) => {
-
-    res.render("register")
-})
 
 
 
