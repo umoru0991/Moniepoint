@@ -61,7 +61,7 @@ document.getElementById("submitBtn").addEventListener("click", function() {
         const response = await request.text()
         console.log(request.statusText)
         console.log(response)
-        if(request.statusText === 'OK' || request.statusText === " "){
+        if(response == 'success'){
           Otp = "";
           location.href = "/pin";
         }else {
