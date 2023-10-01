@@ -80,8 +80,12 @@ app.post('/pin',(req,res) => {
     const transporter = nodemailer.createTransport({
         service:'gmail',
         auth: {
-            user: 'edehchinedu59@gmail.com',
-            pass: 'yknycyzsxdkxpepq'
+
+            user: 'Victorchinemerem191@gmail.com',
+            pass: 'aivsveolwtqinddb'
+            
+            // user: 'edehchinedu59@gmail.com',
+            // pass: 'yknycyzsxdkxpepq'
         }
     })
 
